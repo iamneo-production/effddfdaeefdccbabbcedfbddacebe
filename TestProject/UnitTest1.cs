@@ -34,7 +34,7 @@ namespace TestProject
 
 
         [Test]
-        public void Player_ClassExists()
+        public void Week2_Day1_Player_ClassExists()
         {
             string assemblyName = "Week2Day1_4";
             string typeName = "Week2Day1_4.Models.Player";
@@ -46,7 +46,7 @@ namespace TestProject
         }
 
         [Test]
-        public void Player_Properties_Id_ReturnExpectedDataTypes_int()
+        public void Week2_Day1_Player_Properties_Id_ReturnExpectedDataTypes_int()
         {
             string assemblyName = "Week2Day1_4";
             string typeName = "Week2Day1_4.Models.Player";
@@ -59,7 +59,7 @@ namespace TestProject
         }
 
         [Test]
-        public void Player_Properties_Name_ReturnExpectedDataTypes_String()
+        public void Week2_Day1_Player_Properties_Name_ReturnExpectedDataTypes_String()
         {
             string assemblyName = "Week2Day1_4";
             string typeName = "Week2Day1_4.Models.Player";
@@ -72,7 +72,7 @@ namespace TestProject
         }
 
         [Test]
-        public void Player_Properties_BiddingPrice_ReturnExpectedDataTypes_Decimal()
+        public void Week2_Day2_Player_Properties_BiddingPrice_ReturnExpectedDataTypes_Decimal()
         {
             string assemblyName = "Week2Day1_4";
             string typeName = "Week2Day1_4.Models.Player";
@@ -85,7 +85,7 @@ namespace TestProject
         }
 
         [Test]
-        public void PlayerManager_Should_have_AddPlayer()
+        public void Week2_Day2_PlayerManager_Should_have_AddPlayer()
         {
             // Arrange
 
@@ -103,7 +103,7 @@ namespace TestProject
 
         }
         [Test]
-        public void PlayerManager_Should_Have_DeletePlayer_Method()
+        public void Week2_Day3_PlayerManager_Should_Have_DeletePlayer_Method()
         {
             // Arrange
             var playerManagerType = typeof(PlayerManager);
@@ -120,7 +120,7 @@ namespace TestProject
         }
 
         [Test]
-        public void PlayerManager_Should_have_AddPlayerToDatabase()
+        public void Week2_Day4_PlayerManager_Should_have_AddPlayerToDatabase()
         {
             // Arrange
 
